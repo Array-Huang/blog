@@ -7,6 +7,8 @@
 
 ### 【最新】现代前端库开发指南系列
 - [融入现代前端生态](https://github.com/Array-Huang/blog/issues/29)
+- [使用 webpack 构建一个库](https://github.com/Array-Huang/blog/issues/30)
+- [从说明文档看库的前世今生](https://github.com/Array-Huang/blog/issues/31)
 
 ### webpack 多页应用架构系列
 - [一步一步解决架构痛点](https://github.com/Array-Huang/blog/issues/13)
