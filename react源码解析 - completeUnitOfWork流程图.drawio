@@ -1,1 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2021-09-25T04:43:45.270Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 Edg/93.0.961.52" version="14.9.3" etag="ctB7D090_TXGCKzTF6vj" type="github"><diagram id="qxneMFBWMVclIBcfK9Ha">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-25T08:42:51.293Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 Edg/93.0.961.52" etag="7Ii-jq80BFCa6RHxwTU-" version="14.9.3" type="github">
+  <diagram id="qxneMFBWMVclIBcfK9Ha" name="第 1 页">
+    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="H3Z9i20WCUpH0tw4wBVw-1" value="completeUnitOfWork" style="swimlane;fontSize=20;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="130" y="40" width="640" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="H3Z9i20WCUpH0tw4wBVw-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="H3Z9i20WCUpH0tw4wBVw-1" source="H3Z9i20WCUpH0tw4wBVw-2" target="H3Z9i20WCUpH0tw4wBVw-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H3Z9i20WCUpH0tw4wBVw-2" value="&lt;font style=&quot;font-size: 14px&quot;&gt;初始化循环主体：completedWork = unitOfWork&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="H3Z9i20WCUpH0tw4wBVw-1">
+          <mxGeometry x="100" y="70" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H3Z9i20WCUpH0tw4wBVw-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="H3Z9i20WCUpH0tw4wBVw-1" source="H3Z9i20WCUpH0tw4wBVw-3" target="H3Z9i20WCUpH0tw4wBVw-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H3Z9i20WCUpH0tw4wBVw-3" value="&lt;font style=&quot;font-size: 14px&quot;&gt;completeWork(current, completedWork, subtreeRenderLanes)&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;fontSize=20;" vertex="1" parent="H3Z9i20WCUpH0tw4wBVw-1">
+          <mxGeometry x="100" y="150" width="340" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="H3Z9i20WCUpH0tw4wBVw-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="H3Z9i20WCUpH0tw4wBVw-1" source="H3Z9i20WCUpH0tw4wBVw-5" target="H3Z9i20WCUpH0tw4wBVw-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H3Z9i20WCUpH0tw4wBVw-5" value="&lt;font style=&quot;font-size: 14px&quot;&gt;收集带 EffectTag 的子 Fiber 节点，拼成一个单链表：EffectList&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;fontSize=20;" vertex="1" parent="H3Z9i20WCUpH0tw4wBVw-1">
+          <mxGeometry x="70" y="240" width="400" height="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="H3Z9i20WCUpH0tw4wBVw-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="H3Z9i20WCUpH0tw4wBVw-1" source="H3Z9i20WCUpH0tw4wBVw-7" target="H3Z9i20WCUpH0tw4wBVw-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H3Z9i20WCUpH0tw4wBVw-7" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;若当前节点(completedWork)也有 EffectTag ，则将本节点挂载在 EffectList 的末尾&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fontSize=20;" vertex="1" parent="H3Z9i20WCUpH0tw4wBVw-1">
+          <mxGeometry x="70" y="310" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="H3Z9i20WCUpH0tw4wBVw-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="H3Z9i20WCUpH0tw4wBVw-1" source="H3Z9i20WCUpH0tw4wBVw-9" target="H3Z9i20WCUpH0tw4wBVw-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H3Z9i20WCUpH0tw4wBVw-13" value="有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" vertex="1" connectable="0" parent="H3Z9i20WCUpH0tw4wBVw-12">
+          <mxGeometry x="-0.4182" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H3Z9i20WCUpH0tw4wBVw-9" value="&lt;font style=&quot;font-size: 14px&quot;&gt;当前节点(completed)是否有兄弟节点(completed.sibling)？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fontSize=20;spacing=23;" vertex="1" parent="H3Z9i20WCUpH0tw4wBVw-1">
+          <mxGeometry x="155" y="380" width="230" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="H3Z9i20WCUpH0tw4wBVw-11" value="&lt;font style=&quot;font-size: 14px&quot;&gt;workInProgress = siblingFiber&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;fontSize=20;spacing=23;" vertex="1" parent="H3Z9i20WCUpH0tw4wBVw-1">
+          <mxGeometry x="440" y="425" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
