@@ -1,14 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2021-09-26T02:25:54.504Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 Edg/93.0.961.52" etag="TrmyMIPplc4x69ymFvow" version="15.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-26T03:14:27.032Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 Edg/93.0.961.52" etag="NfeOeEk_9rb-sGCFKwtx" version="15.3.2" type="github">
   <diagram id="2kTVmlpDKg76tlm_5Qrb" name="第 1 页">
-    <mxGraphModel dx="1554" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1554" dy="1941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="V1BVesm8Lvpo04cN4Jhm-2" value="completeWork（处理 HostComponent 的代码段）" style="swimlane;fontSize=20;startSize=30;" vertex="1" parent="1">
-          <mxGeometry x="90" y="20" width="690" height="750" as="geometry" />
+        <mxCell id="V1BVesm8Lvpo04cN4Jhm-2" value="completeWork（处理 HostComponent 的代码段）" style="swimlane;fontSize=20;startSize=30;align=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-30" width="780" height="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="V1BVesm8Lvpo04cN4Jhm-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="V1BVesm8Lvpo04cN4Jhm-2" source="V1BVesm8Lvpo04cN4Jhm-3" target="V1BVesm8Lvpo04cN4Jhm-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="V1BVesm8Lvpo04cN4Jhm-3" value="completeWork(current, completedWork, subtreeRenderLanes)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="V1BVesm8Lvpo04cN4Jhm-2">
-          <mxGeometry x="120" y="50" width="430" height="30" as="geometry" />
+          <mxGeometry x="210" y="50" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V1BVesm8Lvpo04cN4Jhm-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="V1BVesm8Lvpo04cN4Jhm-2" source="V1BVesm8Lvpo04cN4Jhm-4" target="V1BVesm8Lvpo04cN4Jhm-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V1BVesm8Lvpo04cN4Jhm-9" value="&lt;font color=&quot;#ff3333&quot;&gt;HostComponent&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="V1BVesm8Lvpo04cN4Jhm-2" source="V1BVesm8Lvpo04cN4Jhm-4" target="V1BVesm8Lvpo04cN4Jhm-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V1BVesm8Lvpo04cN4Jhm-4" value="switch (workInProgress.tag)" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fontSize=14;" vertex="1" parent="V1BVesm8Lvpo04cN4Jhm-2">
+          <mxGeometry x="305" y="110" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V1BVesm8Lvpo04cN4Jhm-6" value="其它 tag 类型省略" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" vertex="1" parent="V1BVesm8Lvpo04cN4Jhm-2">
+          <mxGeometry x="590" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V1BVesm8Lvpo04cN4Jhm-11" value="&lt;span&gt;(current !== null &amp;amp;&amp;amp; workInProgress.stateNode != null)&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;spacing=24;spacingTop=0;spacingLeft=0;spacingRight=0;" vertex="1" parent="V1BVesm8Lvpo04cN4Jhm-2">
+          <mxGeometry x="287.5" y="250" width="275" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="V1BVesm8Lvpo04cN4Jhm-12" value="&lt;div&gt;updateHostComponent(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; current,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; workInProgress,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; type,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; newProps,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; rootContainerInstance,&lt;/div&gt;&lt;div&gt;);&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;align=left;" vertex="1" parent="V1BVesm8Lvpo04cN4Jhm-2">
+          <mxGeometry x="570" y="380" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="V1BVesm8Lvpo04cN4Jhm-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="V1BVesm8Lvpo04cN4Jhm-2" source="V1BVesm8Lvpo04cN4Jhm-11" target="V1BVesm8Lvpo04cN4Jhm-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V1BVesm8Lvpo04cN4Jhm-16" value="为true，则做“更新”操作" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#FF3333;" vertex="1" connectable="0" parent="V1BVesm8Lvpo04cN4Jhm-13">
+          <mxGeometry x="-0.4667" y="-1" relative="1" as="geometry">
+            <mxPoint x="52" y="29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V1BVesm8Lvpo04cN4Jhm-17" value="&lt;div&gt;创建DOM节点：&lt;/div&gt;&lt;div&gt;createInstance(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; type,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; newProps,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; rootContainerInstance,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; currentHostContext,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; workInProgress,&lt;/div&gt;&lt;div&gt;)&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;align=left;" vertex="1" parent="V1BVesm8Lvpo04cN4Jhm-2">
+          <mxGeometry x="77.5" y="380" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="V1BVesm8Lvpo04cN4Jhm-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#FF3333;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="V1BVesm8Lvpo04cN4Jhm-2" source="V1BVesm8Lvpo04cN4Jhm-11" target="V1BVesm8Lvpo04cN4Jhm-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V1BVesm8Lvpo04cN4Jhm-19" value="为false，则做“新建”操作" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#FF3333;" vertex="1" connectable="0" parent="V1BVesm8Lvpo04cN4Jhm-18">
+          <mxGeometry x="0.5385" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V1BVesm8Lvpo04cN4Jhm-20" value="将子Fiber节点的DOM节点挂载到上一步刚创建的DOM节点上&lt;br&gt;appendAllChildren(instance, workInProgress, ...)" style="whiteSpace=wrap;html=1;fontSize=14;align=left;" vertex="1" parent="V1BVesm8Lvpo04cN4Jhm-2">
+          <mxGeometry x="31.259999999999998" y="550" width="302.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="V1BVesm8Lvpo04cN4Jhm-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#FF3333;" edge="1" parent="V1BVesm8Lvpo04cN4Jhm-2" source="V1BVesm8Lvpo04cN4Jhm-17" target="V1BVesm8Lvpo04cN4Jhm-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V1BVesm8Lvpo04cN4Jhm-22" value="把刚创建的DOM节点赋值给workInProgress：workInProgress.stateNode = instance" style="whiteSpace=wrap;html=1;fontSize=14;align=left;" vertex="1" parent="V1BVesm8Lvpo04cN4Jhm-2">
+          <mxGeometry x="39.690000000000005" y="650" width="285.63" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="V1BVesm8Lvpo04cN4Jhm-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#FF3333;" edge="1" parent="V1BVesm8Lvpo04cN4Jhm-2" source="V1BVesm8Lvpo04cN4Jhm-20" target="V1BVesm8Lvpo04cN4Jhm-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V1BVesm8Lvpo04cN4Jhm-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;fontColor=#FF3333;" edge="1" parent="V1BVesm8Lvpo04cN4Jhm-2" source="V1BVesm8Lvpo04cN4Jhm-24" target="V1BVesm8Lvpo04cN4Jhm-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V1BVesm8Lvpo04cN4Jhm-24" value="&lt;div&gt;初始化刚创建的DOM节点的事件回调以及DOM属性&lt;/div&gt;&lt;div&gt;finalizeInitialChildren(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; instance,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; type,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; newProps,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; rootContainerInstance,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; currentHostContext,&lt;/div&gt;&lt;div&gt;)&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;align=left;" vertex="1" parent="V1BVesm8Lvpo04cN4Jhm-2">
+          <mxGeometry x="73.76" y="720" width="216.24" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="V1BVesm8Lvpo04cN4Jhm-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#FF3333;" edge="1" parent="V1BVesm8Lvpo04cN4Jhm-2" source="V1BVesm8Lvpo04cN4Jhm-22" target="V1BVesm8Lvpo04cN4Jhm-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V1BVesm8Lvpo04cN4Jhm-26" value="completeWork 结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontColor=#FF3333;align=center;" vertex="1" parent="V1BVesm8Lvpo04cN4Jhm-2">
+          <mxGeometry x="352.5" y="910" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V1BVesm8Lvpo04cN4Jhm-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;fontColor=#FF3333;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="V1BVesm8Lvpo04cN4Jhm-2" source="V1BVesm8Lvpo04cN4Jhm-12" target="V1BVesm8Lvpo04cN4Jhm-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="880" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
