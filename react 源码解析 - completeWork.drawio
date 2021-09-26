@@ -1,1 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2021-09-26T02:19:54.970Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 Edg/93.0.961.52" version="15.3.2" etag="NujA94U3MFcpQcKxCOwG" type="github"><diagram id="2kTVmlpDKg76tlm_5Qrb">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-26T02:25:54.504Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 Edg/93.0.961.52" etag="TrmyMIPplc4x69ymFvow" version="15.3.2" type="github">
+  <diagram id="2kTVmlpDKg76tlm_5Qrb" name="第 1 页">
+    <mxGraphModel dx="1554" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="V1BVesm8Lvpo04cN4Jhm-2" value="completeWork（处理 HostComponent 的代码段）" style="swimlane;fontSize=20;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="90" y="20" width="690" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="V1BVesm8Lvpo04cN4Jhm-3" value="completeWork(current, completedWork, subtreeRenderLanes)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="V1BVesm8Lvpo04cN4Jhm-2">
+          <mxGeometry x="120" y="50" width="430" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
