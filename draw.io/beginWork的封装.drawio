@@ -1,1 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2022-02-15T09:26:30.697Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Edg/97.0.1072.76" version="15.7.3" etag="hkIKRb8A4qTyoao9V_lt" type="github"><diagram id="F4jNCUqd9gNcGUTaiuVI">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-15T10:10:30.438Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Edg/97.0.1072.76" etag="-KiHg5asTPtxeH_iTMzz" version="15.7.3" type="github">
+  <diagram id="F4jNCUqd9gNcGUTaiuVI" name="第 1 页">
+    <mxGraphModel dx="1554" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HsAjzL98UpdGPzK0w2Jh-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="HsAjzL98UpdGPzK0w2Jh-2" target="HsAjzL98UpdGPzK0w2Jh-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HsAjzL98UpdGPzK0w2Jh-2" value="&quot;备份&quot;当前的 Fiber 节点属性" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="318.75" y="100" width="202.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HsAjzL98UpdGPzK0w2Jh-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="HsAjzL98UpdGPzK0w2Jh-3" target="HsAjzL98UpdGPzK0w2Jh-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HsAjzL98UpdGPzK0w2Jh-3" value="对 beginWork 的“异常处理”封装" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HsAjzL98UpdGPzK0w2Jh-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="HsAjzL98UpdGPzK0w2Jh-11" target="HsAjzL98UpdGPzK0w2Jh-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HsAjzL98UpdGPzK0w2Jh-13" value="执行无异常" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="HsAjzL98UpdGPzK0w2Jh-10">
+          <mxGeometry x="0.0353" relative="1" as="geometry">
+            <mxPoint x="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HsAjzL98UpdGPzK0w2Jh-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="HsAjzL98UpdGPzK0w2Jh-7" target="HsAjzL98UpdGPzK0w2Jh-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HsAjzL98UpdGPzK0w2Jh-7" value="执行 beginWork 本身的逻辑" style="whiteSpace=wrap;html=1;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="320" y="150" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HsAjzL98UpdGPzK0w2Jh-9" value="结束当前封装的逻辑" style="ellipse;whiteSpace=wrap;html=1;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="560" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HsAjzL98UpdGPzK0w2Jh-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="HsAjzL98UpdGPzK0w2Jh-11" target="HsAjzL98UpdGPzK0w2Jh-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HsAjzL98UpdGPzK0w2Jh-11" value="执行过程中是否抛出异常" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="340" y="210" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="HsAjzL98UpdGPzK0w2Jh-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="HsAjzL98UpdGPzK0w2Jh-14" target="HsAjzL98UpdGPzK0w2Jh-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HsAjzL98UpdGPzK0w2Jh-14" value="从“备份”中恢复当前 Fiber 节点到执行 beginWork 前的状态" style="whiteSpace=wrap;html=1;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="320" y="360" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HsAjzL98UpdGPzK0w2Jh-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="HsAjzL98UpdGPzK0w2Jh-16" target="HsAjzL98UpdGPzK0w2Jh-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HsAjzL98UpdGPzK0w2Jh-16" value="“重播” beginWork 执行的过程，但这次不会使用 try/catch 来捕获异常，而是改用更巧妙的方法，这样就不会影响&amp;nbsp;Pause on exceptions 的功能" style="whiteSpace=wrap;html=1;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="320" y="450" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HsAjzL98UpdGPzK0w2Jh-18" value="重新抛出上一步捕获到的异常，交给外层的 try/catch 来处理异常" style="whiteSpace=wrap;html=1;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="320" y="585" width="200" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
