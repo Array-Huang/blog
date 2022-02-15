@@ -1,1 +1,119 @@
-<mxfile host="app.diagrams.net" modified="2022-02-15T12:36:38.154Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Edg/97.0.1072.76" version="15.7.3" etag="WhtZC1YqjZKgVh2FHeIf" type="github"><diagram id="qnLC7kWlHV4e9VxlRZAA">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-15T13:17:50.000Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Edg/97.0.1072.76" etag="1-3EBlnV6lGRDRyBipvq" version="15.7.3" type="github">
+  <diagram id="qnLC7kWlHV4e9VxlRZAA" name="第 1 页">
+    <mxGraphModel dx="1554" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dROSn_s1HLwF3hYGUOYZ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dROSn_s1HLwF3hYGUOYZ-1" target="dROSn_s1HLwF3hYGUOYZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dROSn_s1HLwF3hYGUOYZ-1" value="循环开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dROSn_s1HLwF3hYGUOYZ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dROSn_s1HLwF3hYGUOYZ-2" target="dROSn_s1HLwF3hYGUOYZ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dROSn_s1HLwF3hYGUOYZ-6" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dROSn_s1HLwF3hYGUOYZ-5">
+          <mxGeometry x="-0.08" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dROSn_s1HLwF3hYGUOYZ-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dROSn_s1HLwF3hYGUOYZ-2" target="dROSn_s1HLwF3hYGUOYZ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dROSn_s1HLwF3hYGUOYZ-11" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dROSn_s1HLwF3hYGUOYZ-10">
+          <mxGeometry x="-0.3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dROSn_s1HLwF3hYGUOYZ-2" value="判断当前 Fiber 节点是否异常" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="130" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dROSn_s1HLwF3hYGUOYZ-4" value="走正常 render 的逻辑" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dROSn_s1HLwF3hYGUOYZ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dROSn_s1HLwF3hYGUOYZ-9" target="dROSn_s1HLwF3hYGUOYZ-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dROSn_s1HLwF3hYGUOYZ-14" value="能" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dROSn_s1HLwF3hYGUOYZ-13">
+          <mxGeometry x="-0.35" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dROSn_s1HLwF3hYGUOYZ-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dROSn_s1HLwF3hYGUOYZ-9" target="dROSn_s1HLwF3hYGUOYZ-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dROSn_s1HLwF3hYGUOYZ-20" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dROSn_s1HLwF3hYGUOYZ-19">
+          <mxGeometry x="-0.35" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dROSn_s1HLwF3hYGUOYZ-9" value="调用 unwindWork 方法&lt;br&gt;判断当前 Fiber 节点能否处理异常" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="250" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dROSn_s1HLwF3hYGUOYZ-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dROSn_s1HLwF3hYGUOYZ-15" target="dROSn_s1HLwF3hYGUOYZ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dROSn_s1HLwF3hYGUOYZ-15" value="&lt;span&gt;将当前节点设置为下一轮work(performUnitOfWork)的循环主体(workInProgres)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="267.5" width="150" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="dROSn_s1HLwF3hYGUOYZ-16" value="终止当前逻辑，立即进入到以当前 Fiber 节点为主体的下一轮 work" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="360" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dROSn_s1HLwF3hYGUOYZ-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dROSn_s1HLwF3hYGUOYZ-18" target="dROSn_s1HLwF3hYGUOYZ-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dROSn_s1HLwF3hYGUOYZ-18" value="把父节点也标记为异常" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="390" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dROSn_s1HLwF3hYGUOYZ-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dROSn_s1HLwF3hYGUOYZ-21" target="dROSn_s1HLwF3hYGUOYZ-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dROSn_s1HLwF3hYGUOYZ-25" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dROSn_s1HLwF3hYGUOYZ-24">
+          <mxGeometry x="-0.3111" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dROSn_s1HLwF3hYGUOYZ-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dROSn_s1HLwF3hYGUOYZ-21" target="dROSn_s1HLwF3hYGUOYZ-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dROSn_s1HLwF3hYGUOYZ-29" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dROSn_s1HLwF3hYGUOYZ-28">
+          <mxGeometry x="-0.4" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dROSn_s1HLwF3hYGUOYZ-21" value="当前 Fiber 节点是否拥有 sibling 节点" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="450" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dROSn_s1HLwF3hYGUOYZ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dROSn_s1HLwF3hYGUOYZ-23" target="dROSn_s1HLwF3hYGUOYZ-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="600" />
+              <mxPoint x="260" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dROSn_s1HLwF3hYGUOYZ-23" value="把循环主体设置为 Fiber 父节点，继续进行循环" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dROSn_s1HLwF3hYGUOYZ-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dROSn_s1HLwF3hYGUOYZ-27" target="dROSn_s1HLwF3hYGUOYZ-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dROSn_s1HLwF3hYGUOYZ-27" value="进入到 sibling 节点的正常 render 逻辑" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="460" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dROSn_s1HLwF3hYGUOYZ-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dROSn_s1HLwF3hYGUOYZ-32" target="dROSn_s1HLwF3hYGUOYZ-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dROSn_s1HLwF3hYGUOYZ-32" value="&lt;span&gt;省略一大段 render 过程后，最终会走到 sibling 节点的 completeUnitOfWork 阶段&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="570" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dROSn_s1HLwF3hYGUOYZ-35" value="completeUnitOfWork 的异常处理流程" style="swimlane;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="230" y="30" width="530" height="620" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
