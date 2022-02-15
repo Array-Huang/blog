@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-15T10:10:30.438Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Edg/97.0.1072.76" etag="-KiHg5asTPtxeH_iTMzz" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-15T10:12:56.802Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Edg/97.0.1072.76" etag="vgTHaPiDAfZxMmnvPjk5" version="15.7.3" type="github">
   <diagram id="F4jNCUqd9gNcGUTaiuVI" name="第 1 页">
     <mxGraphModel dx="1554" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -53,6 +53,9 @@
         </mxCell>
         <mxCell id="HsAjzL98UpdGPzK0w2Jh-18" value="重新抛出上一步捕获到的异常，交给外层的 try/catch 来处理异常" style="whiteSpace=wrap;html=1;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="320" y="585" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HsAjzL98UpdGPzK0w2Jh-25" value="beginWork 的“异常处理”封装" style="swimlane;fontSize=18;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="290" width="410" height="660" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
