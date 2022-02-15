@@ -1,1 +1,81 @@
-<mxfile host="app.diagrams.net" modified="2022-02-15T11:52:31.154Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Edg/97.0.1072.76" version="15.7.3" etag="a6ryn8AQfpIE206_AITf" type="github"><diagram id="76b3Y3EE1aodCi3tJhDd">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-15T12:06:23.239Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Edg/97.0.1072.76" etag="lDEuekDvgSf5HGqHdQ9f" version="15.7.3" type="github">
+  <diagram id="76b3Y3EE1aodCi3tJhDd" name="第 1 页">
+    <mxGraphModel dx="1554" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_dtDybDu8-VcmdlrZb3v-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_dtDybDu8-VcmdlrZb3v-1" target="_dtDybDu8-VcmdlrZb3v-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_dtDybDu8-VcmdlrZb3v-1" value="循环开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_dtDybDu8-VcmdlrZb3v-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_dtDybDu8-VcmdlrZb3v-2" target="_dtDybDu8-VcmdlrZb3v-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_dtDybDu8-VcmdlrZb3v-6" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_dtDybDu8-VcmdlrZb3v-5">
+          <mxGeometry x="-0.2444" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_dtDybDu8-VcmdlrZb3v-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_dtDybDu8-VcmdlrZb3v-2" target="_dtDybDu8-VcmdlrZb3v-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_dtDybDu8-VcmdlrZb3v-9" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_dtDybDu8-VcmdlrZb3v-8">
+          <mxGeometry x="-0.3667" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_dtDybDu8-VcmdlrZb3v-2" value="当前处于 Fiber 根节点？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="130" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_dtDybDu8-VcmdlrZb3v-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_dtDybDu8-VcmdlrZb3v-4" target="_dtDybDu8-VcmdlrZb3v-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_dtDybDu8-VcmdlrZb3v-4" value="调用 throwException:&lt;br&gt;寻找一个能处理当前异常的节点，并创建相应的更新任务" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="250" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_dtDybDu8-VcmdlrZb3v-7" value="确定没有错误边界能够处理当前异常，标记当前异常为“致命异常”，结束循环" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="133.75" width="120" height="72.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_dtDybDu8-VcmdlrZb3v-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_dtDybDu8-VcmdlrZb3v-10" target="_dtDybDu8-VcmdlrZb3v-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_dtDybDu8-VcmdlrZb3v-10" value="进入到&amp;nbsp;completeUnitOfWork 中，进入“能处理当前异常的节点”的 render 过程" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="340" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_dtDybDu8-VcmdlrZb3v-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_dtDybDu8-VcmdlrZb3v-12" target="_dtDybDu8-VcmdlrZb3v-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_dtDybDu8-VcmdlrZb3v-19" value="没有抛异常" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_dtDybDu8-VcmdlrZb3v-18">
+          <mxGeometry x="-0.4444" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_dtDybDu8-VcmdlrZb3v-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_dtDybDu8-VcmdlrZb3v-12" target="_dtDybDu8-VcmdlrZb3v-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_dtDybDu8-VcmdlrZb3v-23" value="抛异常了" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_dtDybDu8-VcmdlrZb3v-21">
+          <mxGeometry x="0.129" y="-2" relative="1" as="geometry">
+            <mxPoint x="15" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_dtDybDu8-VcmdlrZb3v-12" value="抛异常了吗？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="420" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_dtDybDu8-VcmdlrZb3v-17" value="执行结束" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_dtDybDu8-VcmdlrZb3v-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_dtDybDu8-VcmdlrZb3v-20" target="_dtDybDu8-VcmdlrZb3v-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_dtDybDu8-VcmdlrZb3v-20" value="将循环主体设置为当前节点的父节点，继续循环" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="250" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_dtDybDu8-VcmdlrZb3v-25" value="handleError 流程图" style="swimlane;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="580" height="560" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
