@@ -1,1 +1,87 @@
-<mxfile host="app.diagrams.net" modified="2022-02-16T03:03:07.858Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Edg/97.0.1072.76" version="15.7.3" etag="5vLV9MddddIaSUVxw6VL" type="github"><diagram id="A-L3CD-DpvD529_2MlOQ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-16T03:53:53.939Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Edg/97.0.1072.76" etag="fxbflWBoItU7-tKAtvhe" version="15.7.3" type="github">
+  <diagram id="A-L3CD-DpvD529_2MlOQ" name="第 1 页">
+    <mxGraphModel dx="1554" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7blg6bUu5paaO_llD7f8-23" value="重新进入&quot;处理异常的 Fiber 节点&quot;的 render 阶段" style="swimlane;direction=west;fontSize=13;startSize=30;dashed=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="104" y="375" width="620" height="210" as="geometry">
+            <mxRectangle x="104" y="375" width="310" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7blg6bUu5paaO_llD7f8-10" value="执行状态更新任务" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="7blg6bUu5paaO_llD7f8-23">
+          <mxGeometry x="56" y="40" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7blg6bUu5paaO_llD7f8-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="7blg6bUu5paaO_llD7f8-23" source="7blg6bUu5paaO_llD7f8-10" target="7blg6bUu5paaO_llD7f8-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7blg6bUu5paaO_llD7f8-19" value="根据错误边界 state 的变化，会卸载掉带有异常 Fiber 节点的子组件树，改为渲染含有友好异常提示的 UI 界面" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="7blg6bUu5paaO_llD7f8-23">
+          <mxGeometry x="56" y="95" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7blg6bUu5paaO_llD7f8-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="7blg6bUu5paaO_llD7f8-23" source="7blg6bUu5paaO_llD7f8-10" target="7blg6bUu5paaO_llD7f8-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7blg6bUu5paaO_llD7f8-12" value="&lt;span&gt;执行状态更新任务&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="7blg6bUu5paaO_llD7f8-23">
+          <mxGeometry x="376" y="40" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7blg6bUu5paaO_llD7f8-18" value="卸载掉整个组件树" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="7blg6bUu5paaO_llD7f8-23">
+          <mxGeometry x="376" y="95" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7blg6bUu5paaO_llD7f8-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="7blg6bUu5paaO_llD7f8-23" source="7blg6bUu5paaO_llD7f8-12" target="7blg6bUu5paaO_llD7f8-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7blg6bUu5paaO_llD7f8-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7blg6bUu5paaO_llD7f8-1" target="7blg6bUu5paaO_llD7f8-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7blg6bUu5paaO_llD7f8-1" value="捕获到 render 异常" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="70" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7blg6bUu5paaO_llD7f8-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7blg6bUu5paaO_llD7f8-2" target="7blg6bUu5paaO_llD7f8-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7blg6bUu5paaO_llD7f8-6" value="错误边界" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7blg6bUu5paaO_llD7f8-5">
+          <mxGeometry x="-0.0632" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7blg6bUu5paaO_llD7f8-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7blg6bUu5paaO_llD7f8-2" target="7blg6bUu5paaO_llD7f8-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7blg6bUu5paaO_llD7f8-9" value="根节点" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7blg6bUu5paaO_llD7f8-8">
+          <mxGeometry x="0.03" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7blg6bUu5paaO_llD7f8-2" value="寻找一个能处理异常的 Fiber 节点：&lt;br&gt;从抛出异常的节点开始，往根节点方向遍历，优先找错误边界，如果找不到就只好交给根节点来处理异常" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="150" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7blg6bUu5paaO_llD7f8-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7blg6bUu5paaO_llD7f8-4" target="7blg6bUu5paaO_llD7f8-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7blg6bUu5paaO_llD7f8-4" value="创建一个 payload 为 getDerivedStateFromError 方法执行后返回的 state 值、 callback 为 componentDidCatch 的更新任务" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="270" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7blg6bUu5paaO_llD7f8-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7blg6bUu5paaO_llD7f8-7" target="7blg6bUu5paaO_llD7f8-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7blg6bUu5paaO_llD7f8-7" value="创建一个卸载整个组件树的更新任务" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="270" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7blg6bUu5paaO_llD7f8-24" value="正常 commit 阶段" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="620" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7blg6bUu5paaO_llD7f8-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="7blg6bUu5paaO_llD7f8-19" target="7blg6bUu5paaO_llD7f8-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7blg6bUu5paaO_llD7f8-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="7blg6bUu5paaO_llD7f8-18" target="7blg6bUu5paaO_llD7f8-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7blg6bUu5paaO_llD7f8-27" value="React 处理 render 异常的简单流程图" style="swimlane;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="20" width="700" height="680" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
